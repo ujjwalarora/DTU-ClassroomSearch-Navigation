@@ -1,0 +1,22 @@
+else if(classID.equals("controlsystem")||classID.equals("electricalengineering")||classID.equals("intrumentationandieal")||classID.equals("processcontrolandmicroprocessor"))
+{stairs="stair1";floorname="First"}
+
+else if(classID.equals("ca")||classID.equals("ipm")||classID.equals("linearintegratedcircuit")||classID.equals("microprocessor")||classID.equals("seniormeasurement")||classID.equals("texasinstruments"))
+{stairs="stair1";floorname="Second"}
+
+else if(classID.equals("computation")||classID.equals("ail")||classID.equals("dbms")||classID.equals("lans")||classID.equals("programming")||classID.equals("seminarroom"))
+{stairs="stair1";floorname="Third"}
+
+else if(classID.equals("roboticsandmachineintelligence")||classID.equals("telecommunication"))
+{stairs="stair2";floorname="First"}
+
+else if(classID.equals("computationandinstrumentation")||classID.equals("edusathall")||classID.equals("vlsicad"))
+{stairs="stair2";floorname="Second"}
+
+else if(classID.equals("electronics1")||classID.equals("electronics2"))
+{stairs="stair2";floorname="Third"}
+
+else if(classID.equals("electricalscience")||classID.equals("juniormachine")||classID.equals("powerelectronics")||classID.equals("projectandresearch")||classID.equals("seniormachine")||classID.equals("pcb"))
+{stairs="nostair";floorname="Ground"}
+
+
